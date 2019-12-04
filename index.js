@@ -3,7 +3,7 @@ var express = require('express');
 
 var app = express();
 
-debugger;
+
 
 var falseCompare = 1;
 try{
@@ -12,6 +12,12 @@ try{
     }
 }catch(ex){
     throw ex;
+}
+debugger;
+
+var cont = 'this is a string';
+if ((str = cont.substring(1, 3)) != '') {  
+    console.log(str);
 }
 
 //Respond with "hello world" for requests that hit our root "/"
