@@ -16,7 +16,7 @@ try{
 debugger;
 
 var cont = 'this is a string';
-if ((str = cont.substring(1, 3)) != '') {  
+if ((cont = cont.substring(1, 3)) != '') {  
     console.log(str);
 }
 
