@@ -13,11 +13,11 @@ try{
 }catch(ex){
     throw ex;
 }
-debugger;
 
 let cont = 'this is a string';
-let str;
-if ((str = cont.substring(1, 3)) != '') {  
+let str = 'sample string';
+str = cont.substring(1, 3);
+if (str !== '') {  
     console.log(str);
 }
 
