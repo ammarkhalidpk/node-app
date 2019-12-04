@@ -6,13 +6,9 @@ var app = express();
 
 
 var falseCompare = 1;
-try{
     if (falseCompare == '1'){
         console.log('invalid way of comparison');
     }
-}catch(ex){
-    throw ex;
-}
 
 let cont = 'this is a string';
 let str = 'sample string';
