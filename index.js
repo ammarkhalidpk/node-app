@@ -21,7 +21,6 @@ if ((str = cont.substring(1, 3)) != '') {
     console.log(str);
 }
 
-//Respond with "hello world" for requests that hit our root "/"
 app.get('/', function (req, res) {
  res.send('Welcome to CI/CD POC');
 });
