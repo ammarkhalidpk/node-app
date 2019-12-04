@@ -16,6 +16,7 @@ str = cont.substring(1, 3);
 if (str !== '') {  
     console.log(str);
 }
+//123
 
 app.get('/', function (req, res) {
  res.send('Welcome to CI/CD POC');
